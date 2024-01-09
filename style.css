@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: #ffa502;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.input-wrapper{
+    background-color: #080808; 
+    padding: 1.87em 1.98em;
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    gap: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0.93em 1.25em rgba(61, 59, 60, 0.372);
+    margin-bottom: 3.12em;
+}
+
+input{
+    background-color: #eeeeff;
+    color: #080808;
+    padding: 1.2em 1.25em;
+    font-size: 0.87em;
+}
+
+input, button{
+    font-weight: 500;
+    border-radius: 0.31em;
+}
+
+button{
+    padding: 3px 8px;
+    background-color: #eeeeff;
+    color: #080808;
+    cursor: pointer;
+}
+  
+button:hover {
+    box-shadow: rgba(105, 103, 104, 0.372) 0 4px 8px, rgba(222, 177, 198, 0.3) 0 7px 13px -3px, #a5a3a4 0 -3px 0 inset;
+    transform: translateY(-0.9px);
+}
+  
+button:active {
+    box-shadow: #979294 0 3px 7px inset;
+    transform: translateY(2px);
+}
+
+.output-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.output-wrapper div{
+    height: 6.2em;
+    width: 6.25em;
+    color: #ffff;
+    border-radius: 0.31em;
+    background-color: #080808;
+    display: grid;
+    place-items: center;
+    padding: 1.25em 0;
+    box-shadow: 0 0.93em 1.25em rgba(61, 59, 60, 0.372);
+}
+
+span{
+    font-size: 1.87em;
+    font-weight: 500;
+}
+
+p{
+    font-size: 0.87em;
+    font-weight: 400;
+    color: #ffff;
+}
